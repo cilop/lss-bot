@@ -1,5 +1,5 @@
 var config = {
-  port: 9090
+  port: process.env.PORT || 9090
 };
 
 module.exports = config;
