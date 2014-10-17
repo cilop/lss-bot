@@ -2,6 +2,10 @@ var express,
   app,
   config;
 
+setInterval(function() {
+  console.log('Im on a node!');
+}, 3000);
+
 express = require('express');
 app = express();
 
