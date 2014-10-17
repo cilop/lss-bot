@@ -11,7 +11,7 @@ module.exports = function(app) {
 
   // app.post('/lssbot/incoming', handlers.incoming);
   app.post('/*', handlers.incoming);
-  app.get('/*', handlers.test);
+  app.get('/', handlers.test);
 
 
 };

@@ -16,7 +16,8 @@ handlers = {
   },
 
   test: function(req, res) {
-    res.status(200).end('Hello World!');
+    // res.status(200).end('Hello World!');
+    res.end('Hello world');
   }
 
 };
